@@ -185,7 +185,7 @@ export class InputComponent<T> {
    * @param password Some `password`.
    */
   private privateMethod(password: string) {
-    console.log(password);
+    console.log('Password received');
   }
 
   @Input('showKeyAlias')
